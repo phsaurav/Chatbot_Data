@@ -2,21 +2,34 @@
 <html>
 <head>    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <style>
+#userInput {
+  margin: auto;
+  width: 50%;
+  float: center;
+}
+.botText {
+  margin: auto;
+  width: 50%;
+  float: center;
+}
+</style> -->
 </head>
 <body>
+
     <center>
         <h1>
               Kothok: First Open-Domain Bangla Conversational Hybrid Chatbot
         </h1>
-      </center>
+
   <div class="box"></div>
-      <div class="boxed">
+      <div class="boxed"  >
         <div>
           <div id="chatbox">
             <img
-              src="https://e7.pngegg.com/pngimages/498/917/png-clipart-computer-icons-desktop-chatbot-icon-blue-angle.png"
+              src="https://support.upwork.com/hc/article_attachments/360040474034/chatbot-data.png"
               alt="Kothok"
-              style="width:80px;height:80px;"
+              style="width:100px;height:100px;"
             />
             <p class="botText">
               <span>হাই, আমার নাম কথক</span>
@@ -26,6 +39,8 @@
             <input id="textInput" type="text" name="msg" placeholder="Message" />
           </div>
         </div>
+        </center>
+
         <script>
           function getBotResponse() {
             var rawText = $("#textInput").val();
